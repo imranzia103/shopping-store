@@ -117,7 +117,7 @@ const AdminProductUpdate = () => {
       if (!answer) return;
 
       const { data } = await deleteProduct(params._id);
-      toast.success(`"${data.name}" is deleted`, {
+      toast.success(`${data.name} is deleted`, {
         position: toast.POSITION.TOP_RIGHT,
         autoClose: 2000,
       });

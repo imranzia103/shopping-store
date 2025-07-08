@@ -1,4 +1,4 @@
-import { apiSlice } from "../Api/apiSlice.js";
+import { apiSlice } from "./apiSlice.js";
 import { CATEGORY_URL } from "../../redux/constants.js";
 
 export const categoryApiSlice = apiSlice.injectEndpoints({

@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch, useSelector } from "react-redux";
-import Message from "../../components/Message";
-import ProgressSteps from "../../components/ProgressSteps";
+import Message from "../../components/Message.jsx";
+import ProgressSteps from "../../components/ProgressSteps.jsx";
 import Loader from "../../components/Loader.jsx";
-import { useCreateOrderMutation } from "../../redux/api/orderApiSlice";
-import { clearCartItems } from "../../redux/features/cart/cartSlice";
+import { useCreateOrderMutation } from "../../redux/api/orderApiSlice.js";
+import { clearCartItems } from "../../redux/features/cart/cartSlice.js";
 
 const PlaceOrder = () => {
   const navigate = useNavigate();
