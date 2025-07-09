@@ -203,12 +203,12 @@ const markOrderAsDelivered = async (req, res) => {
 
 export {
   createOrder,
-  getAllOrders,
-  getUserOrders,
+   getAllOrders,
+   getUserOrders,
   countTotalOrders,
-  calculateTotalSales,
-  calcualteTotalSalesByDate,
-  findOrderById,
-  markOrderAsPaid,
-  markOrderAsDelivered,
+   calculateTotalSales,
+   calcualteTotalSalesByDate,
+   findOrderById,
+   markOrderAsPaid,
+   markOrderAsDelivered,
 };
